@@ -22,8 +22,11 @@ If you do not need any worker nodes make sure worker_host name array doesn't hav
 You can comment one of the following lines if you do not need a specific node to spawn
 
 include km_deploy
+
 include store_deploy
+
 include publisher_deploy
+
 include gw_deploy
 
 If the deployment target has any previous deploys the script will override the existing content. So its better to make sure you clean the deployment folder before executing the script.
